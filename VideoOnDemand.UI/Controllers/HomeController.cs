@@ -17,7 +17,6 @@ namespace VideoOnDemand.UI.Controllers
 
         public IActionResult Index()
         {
-            //check if user is logged in
             if (!_signInManager.IsSignedIn(User))
                 return RedirectToAction("Login", "Account");
 
