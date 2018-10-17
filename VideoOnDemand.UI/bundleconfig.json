@@ -5,7 +5,8 @@
     "outputFileName": "wwwroot/css/site.min.css",
     "inputFiles": [
       "wwwroot/css/site.css",
-      "wwwroot/css/login.css"
+      "wwwroot/css/login.css",
+      "wwwroot/css/menu.css"
     ]
   },
   {
