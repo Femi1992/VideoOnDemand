@@ -10,11 +10,12 @@ namespace VideoOnDemand.Data.Data.Entities
         public string Title { get; set; }
         [MaxLength(1024)]
         public string Description { get; set; }
+        public int Duration { get; set; }
         [MaxLength(1024)]
         public string Thumbnail { get; set; }
         [MaxLength(1024)]
         public string Url { get; set; }
-        public int Positions { get; set; }
+        public int Position { get; set; }
 
         public int ModuleId { get; set; }
         public Module Module { get; set; }
