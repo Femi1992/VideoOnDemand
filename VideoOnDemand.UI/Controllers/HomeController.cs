@@ -18,10 +18,6 @@ namespace VideoOnDemand.UI.Controllers
 
         public IActionResult Index()
         {
-            var rep = new MockReadRepository();
-            var courses = rep.GetCourses(
-                "3fcd8c17-0a83-4c70-8b1c-9b2d4131a92f");
-            var course = rep.GetCourse("3fcd8c17-0a83-4c70-8b1c-9b2d4131a92f", 1);
             if (!_signInManager.IsSignedIn(User))
                 return RedirectToAction("Login", "Account");
 
